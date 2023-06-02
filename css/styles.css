@@ -44,28 +44,28 @@ img {
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 } */
-.container {
+
+  /* mobile */
+  .container {
+  max-width: 428x;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
   }
-  /* mobile */
-  @media screen and (min-width: 428px) {
-    .container {
-      width: 428x;
-      margin-left: auto;
-      margin-right: auto;
-    }    
-  }
+
   /* Tablet */
   @media screen and (min-width: 768px) {
     .container {
-      width: 768px;
+     max-width: 768px;
     }
   }
   /* Desctop */
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1158px) {
     .container {
-      width: 1160px;
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
 .menu {
@@ -82,10 +82,9 @@ img {
 .mobile-menu-open-btn {
   border: none;
   background-color: transparent;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
   line-height: 0;
-}
+  }
 
 /* .container {
   margin-right: auto;
