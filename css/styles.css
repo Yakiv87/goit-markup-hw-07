@@ -74,6 +74,10 @@ img {
 .address {
   display: none;
 }
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .page-header-conteiner {
   display: flex;
   justify-content: space-between;
