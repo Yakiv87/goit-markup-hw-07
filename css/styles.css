@@ -77,12 +77,14 @@ img {
 .page-header-conteiner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .mobile-menu-open-btn {
   border: none;
   background-color: transparent;
   padding-left: 0;
   padding-right: 0;
+  
 }
 
 /* .container {
