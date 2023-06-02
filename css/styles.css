@@ -49,13 +49,27 @@ img {
   padding-left: 16px;
   padding-right: 16px;
   }
+  /* mobile */
   @media screen and (min-width: 428px) {
     .container {
-      width: 396px;
+      width: 428x;
       margin-left: auto;
       margin-right: auto;
     }    
   }
+  /* Tablet */
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+  }
+  /* Desctop */
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1160px;
+    }
+  }
+
 /* .container {
   margin-right: auto;
   margin-left: auto;
