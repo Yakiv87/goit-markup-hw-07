@@ -145,7 +145,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #4D5AE5;
-padding-right: 35px;
+padding-right: 0px;
 margin-top: 284px;
 margin-bottom: 20px;
 }
@@ -158,6 +158,25 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.mobile-social-list {
+display: flex;
+gap: 56px;
+margin-top: 48px;
+}
+.mobile-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  transition: background-color var(--transition-duration-and-func);
+}
+.mobile-social-list-icon {
+  fill: #F4F4FD;
+}
+
 
 /* .container {
   margin-right: auto;
