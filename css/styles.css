@@ -100,7 +100,7 @@ img {
 .mobile-menu-container {
   position: relative;
   padding-top: 80px;
-  padding-left: 24px;
+  padding-left: 40px;
 }
 .mobile-menu-close-btn {
   position: absolute;
@@ -146,6 +146,8 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #4D5AE5;
 padding-right: 35px;
+margin-top: 284px;
+margin-bottom: 20px;
 }
 .mobile-email {
 font-family: 'Roboto';
