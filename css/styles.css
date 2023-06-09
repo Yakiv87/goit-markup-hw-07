@@ -67,11 +67,14 @@ img {
     padding-right: 15px;
   }
 }
-.menu {
+@media screen  and (max-width: 767px) {
+  .menu {
   display: none;
 }
 .address {
   display: none;
+}
+
 }
 
 .page-header {
@@ -224,22 +227,27 @@ margin-top: 48px;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .mobile-menu-open-btn {
+    display: none;
+    }
+  }
 
 /* .page-header-conteiner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+}*/
 
 .menu {
   display: flex;
   gap: 40px;
-}
+} 
 .nav {
   display: flex;
   align-items: center;
-}*/
+}
 
 /*  
 .address {
