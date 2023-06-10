@@ -530,6 +530,8 @@ margin-right: auto;
 .footer-second {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .footer-container {
   display: flex;
@@ -545,7 +547,7 @@ margin-right: auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  max-width: 268px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -574,6 +576,7 @@ margin-right: auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 72px;
 }
 .footer-media {
   font-weight: 500;
@@ -712,7 +715,9 @@ margin-right: auto;
 /* Subscribe */
 
 .footer-email {
-  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .footer-subs {
   color: #ffffff;
