@@ -729,12 +729,12 @@ margin-right: auto;
   margin-bottom: 16px;
   margin-top: 72px;
 }
-.email-subscribe {
+/* .email-subscribe {
   height: 40px;
-}
+} */
 .footer-subscribe-form {
   display: flex;
-  margin-right: 24px;
+  margin-bottom: 16px;
 }
 .footer-subscribe-input {
   border: 1px solid #ffffff;
