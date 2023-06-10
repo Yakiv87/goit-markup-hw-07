@@ -523,6 +523,7 @@ margin-right: auto;
 .footer {
   padding-top: 96px;
   background: #2e2f42;
+  padding-bottom: 92px;
   }
 .footer-second {
   display: flex;
