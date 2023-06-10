@@ -534,7 +534,8 @@ margin-right: auto;
 .footer-container {
   display: flex;
   flex-direction: column;
-  /* gap: 72px; */
+  justify-content: center;
+  align-items: center;
 }
 .text-footer {
   font-family: 'Roboto';
