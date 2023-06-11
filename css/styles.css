@@ -126,6 +126,7 @@ img {
     position: relative;
     padding-top: 80px;
     padding-left: 40px;
+    padding-right: 24px;
   }
   .mobile-menu-close-btn {
     position: absolute;
@@ -187,6 +188,8 @@ img {
     display: flex;
     gap: 56px;
     margin-top: 48px;
+    justify-content: space-between;
+    align-items: center;
   }
   .mobile-social-link {
     display: flex;
