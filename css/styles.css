@@ -861,10 +861,6 @@ row-gap: 64px;
 
 /*what are we doing*/
 
-.promo {
-  padding-bottom: 120px;
-}
-
 .desc {
   padding-top: 0;
   margin-bottom: 72px;
@@ -910,7 +906,26 @@ row-gap: 64px;
   .address-item:hover,
   .address-item:focus {
     color: var(--portfolio-btn-color);
-  }
+  }  
+  .list-promo-img {
+  padding: 0px;
+  margin: auto;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+ }
+ .list-promo-img-second {
+  padding: 0px;
+  margin: auto;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.promo {
+  padding-bottom: 120px;
+}
+
   .hero {
     background: #2e2f42;
     padding-top: 112px;
@@ -929,7 +944,7 @@ row-gap: 64px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
           url('../images/people-office\ 1@2x.webp');
       }
-      
+    
 }
 }
 
