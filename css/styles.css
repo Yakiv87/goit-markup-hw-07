@@ -302,6 +302,12 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: #434455;
 }
+.feature {
+  text-align: start;
+}
+
+  }
+
   .hero {
 background: #2e2f42;
 padding-top: 112px;
@@ -313,7 +319,6 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
-}
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -321,6 +326,13 @@ background-position: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/Tablet-Dark-bg@2x.jpg');
   }
+  
+} @media screen and (min-width: 768px) and (max-width: 1157px){
+.list-promo-img {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 72px;}
 }
 
 /* .page-header-conteiner {
@@ -405,7 +417,8 @@ background-position: center;
 }
 
 .text-exempel {
-  margin-bottom: 72px;
+  margin-bottom: 0px;
+  flex-basis: calc((100% - 24px) / 2);
 }
 
 .ourteam {
@@ -703,15 +716,8 @@ background-position: center;
   justify-items: center;
   align-items: center;
 }*/
-/*  
+ 
 
-.list-promo-img {
-  padding: 0px;
-  margin: auto;
-  gap: 24px;
-  display: flex;
-  justify-content: center;
-}*/
 
 /*what are we doing*/
 
