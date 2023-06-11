@@ -313,8 +313,19 @@ img {
   background-color: transparent;
   font-size: 12px;
   letter-spacing: 0.04em;
-  width: 264px;
+  width: 100%;
   height: 40px;
+}
+footer-subscribe-input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 .exempel {
   padding-top: 96px;
@@ -614,32 +625,7 @@ img {
   .footer-social-list-link:focus {
     background-color: #31d0aa;
   }
-  .footer-subscribe-input {
-    border: 1px solid #ffffff;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    color: #ffffff;
-    opacity: 0.6;
-    padding-left: 16px;
-    line-height: 1.5;
-    background-color: transparent;
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    width: 100%;
-    height: 40px;
-  }
-  .footer-subscribe-input::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-  }
-  .btn-subscribe {
+    .btn-subscribe {
     display: flex;
     min-width: 165px;
     height: 40px;
@@ -846,30 +832,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-bottom: 16px;
   }
   .footer-subscribe-input {
-    border: 1px solid #ffffff;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    color: #ffffff;
-    opacity: 0.6;
-    padding-left: 16px;
-    line-height: 1.5;
-    background-color: transparent;
-    font-size: 12px;
-    letter-spacing: 0.04em;
     width: 264px;
-    height: 40px;
-  }
-  .footer-subscribe-input::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-  }
+ }
+  
   .footer-container {
     align-items: flex-start;
   }
@@ -991,20 +956,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 .main {
   margin: auto;
 }
-
-/*  
-
-
 .order-btn:hover,
 .order-btn:focus {
   background: var(--portfolio-btn-color);
-}*/
-/*section 2*/
-
-/* .hidden { 
-  margin-bottom: 72px;
-}*/
-
+}
 .text-exempel-first {
   width: calc((100% - 48px) / 4);
 }
@@ -1113,15 +1068,22 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-left: auto;
     margin-right: auto;
   }
-.company-list-link {
- width: 168px;
- height: 88px;
+    .company-list-link {
+    width: 168px;
+    height: 88px;
   }
   .footer-second {
   display: flex;
     }
   .footer-email{
     width: auto;
+  }
+  .footer-container {
+    margin-right: 120px;
+  }
+  .footer-social {
+    align-items: start;
+    margin-right: 80px;
   }
   .footer-subs {
     display: flex;
@@ -1135,6 +1097,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-bottom: 16px;
     margin-top: 72px;
   }
+  .footer-subscribe-input {
+  margin-right: 24px;
+  width: 264px;
+  }
   .email-subscribe {
     height: 40px;
     display: flex;
@@ -1145,19 +1111,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     display: flex;
     margin-bottom: 16px;
   }
-  
-  .footer-subscribe-input::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #ffffff;
   }
-}
 
 /* Subscribe */
 
@@ -1177,7 +1131,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   visibility: hidden;
   pointer-events: none;
 }
-/* .modal {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1190,7 +1144,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 .modal-close-btn {
   position: absolute;
   top: 24px;
