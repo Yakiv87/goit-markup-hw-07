@@ -699,7 +699,7 @@ row-gap: 64px;
 .footer-second {
   display: flex;
   /* flex-direction: column; */
-  justify-content: center;
+  justify-content: left;
   /* align-items: center; */
   width: 584px;
   flex-wrap: wrap;
@@ -904,6 +904,7 @@ row-gap: 64px;
   height: 40px;
   display: flex;
   width: 264px;
+  gap: 24px;
 } 
 .footer-subscribe-form {
   display: flex;
