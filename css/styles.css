@@ -82,14 +82,7 @@ img {
     max-width: 768px;
   }
 }
-/* Desctop */
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
+
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -890,6 +883,11 @@ row-gap: 64px;
 
 /* Desctop */
 @media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .mobile-menu-open-btn {
     display: none;
   }
