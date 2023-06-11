@@ -140,6 +140,20 @@ img {
   flex-direction: column;
   width: 100%;
 }
+.footer-subscribe-input {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+  opacity: 0.6;
+  padding-left: 16px;
+  line-height: 1.5;
+  background-color: transparent;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  width: 264px;
+  height: 40px;
+}
 .exempel {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -1113,13 +1127,18 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-left: auto;
     margin-right: auto;
   }
-  .company-list-link {
-width: 168px;
-height: 88px;
+.company-list-link {
+ width: 168px;
+ height: 88px;
+  }
+  .footer-second {
+  display: flex;
+    }
+  .footer-email{
+    width: auto;
   }
   .footer-subs {
     display: flex;
-    justify-content: center;
     color: #ffffff;
     font-family: 'Roboto';
     font-style: normal;
@@ -1140,20 +1159,7 @@ height: 88px;
     display: flex;
     margin-bottom: 16px;
   }
-  .footer-subscribe-input {
-    border: 1px solid #ffffff;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    color: #ffffff;
-    opacity: 0.6;
-    padding-left: 16px;
-    line-height: 1.5;
-    background-color: transparent;
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    width: 264px;
-    height: 40px;
-  }
+  
   .footer-subscribe-input::placeholder {
     font-family: 'Roboto';
     font-style: normal;
