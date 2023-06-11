@@ -447,7 +447,7 @@ row-gap: 64px;
 
 .exempel {
   padding-top: 96px;
-  padding-bottom: 24px;
+  padding-bottom: 96px;
 }
 
 .feature-description {
@@ -472,7 +472,7 @@ row-gap: 64px;
 
 .team-list {
   background: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .social-list {
