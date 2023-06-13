@@ -850,6 +850,9 @@ img {
     column-gap: 24px;
     row-gap: 64px;
   }
+  .company {
+    gap: 24px;
+  }
   .company-logo {
     width: calc((100% - 16px) / 4);
     height: 88px;
@@ -958,6 +961,9 @@ img {
   .team-list {
     padding-bottom: 120px;
     padding-top: 120px;
+  }
+  .company {
+    gap: 24px;
   }
   .company-list-link {
     width: 168px;
