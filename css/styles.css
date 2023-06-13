@@ -460,9 +460,6 @@ img {
   width: 64px;
   height: 64px;
   margin: auto;
-  display: flex;
-  justify-items: center;
-  align-items: center;
 }
 
 /*what are we doing*/
@@ -507,7 +504,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 72px;
+  gap: 24px;
 }
 .list-contact {
   display: flex;
@@ -903,7 +900,7 @@ img {
     display: block;
   }
   .fon {
-    display: block;
+    display: flex;
   }
   .list-contact {
     display: flex;
@@ -931,6 +928,7 @@ img {
     max-width: 496px;
     }
   .hero {
+    min-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -952,6 +950,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+  }
+  .feature-description {
+    font-weight: 400;
   }
   .company-list-link {
     width: 168px;
