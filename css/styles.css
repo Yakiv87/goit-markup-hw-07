@@ -308,13 +308,6 @@ img {
   background: #2e2f42;
   padding-bottom: 92px;
 }
-.footer-social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 72px;
-}
 .footer-email {
   display: flex;
   flex-direction: column;
@@ -694,6 +687,13 @@ img {
     justify-content: center;
     align-items: center;
   }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 72px;
+  }
   .footer-subs {
     justify-content: center;
   }
@@ -795,7 +795,7 @@ img {
     align-items: baseline;
     width: 584px;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .address-item {
     font-family: 'Roboto';
