@@ -973,6 +973,10 @@ img {
     width: 168px;
     height: 88px;
   }
+  .custom {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
