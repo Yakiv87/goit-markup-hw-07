@@ -728,7 +728,7 @@ img {
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../images/Tablet-Dark-bg@2x.jpg');
+      url('../images/Dark-bg@2x.jpg');
   }
 }
 .page-header {
