@@ -275,7 +275,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  gap: 16px;
+  gap: 72px 16px;
   justify-content: center;
   align-items: center;
 }
@@ -381,8 +381,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  margin-top: 72px;
-}
+  }
 .footer-media {
   font-weight: 500;
   font-size: 16px;
@@ -696,6 +695,7 @@ img {
   }
   .footer-subs {
     justify-content: center;
+    margin-top: 72px;
   }
   .footer-subscribe-form {
     display: flex;
