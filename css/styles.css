@@ -436,9 +436,7 @@ img {
 .order-btn:focus {
   background: var(--portfolio-btn-color);
 }
-.text-exempel-first {
-  width: calc((100% - 48px) / 4);
-}
+
 .fon {
   display: flex;
   align-items: center;
@@ -535,7 +533,7 @@ img {
     display: none;
   }
   .exempel {
-    display: none;
+    display: flex;
   }
   .fon {
     display: none;
@@ -660,6 +658,11 @@ img {
   .list-promo-img-second {
     flex-direction: column;
   }
+  .list-promo-img {
+    display: block;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
   .company-logo {
     width: 100%;
     height: 100%;
@@ -679,6 +682,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 72px;
   }
   .footer-container {
     display: flex;
@@ -691,12 +695,10 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 72px;
-  }
+    }
   .footer-subs {
     justify-content: center;
-    margin-top: 72px;
-  }
+    }
   .footer-subscribe-form {
     display: flex;
     margin-bottom: 16px;
@@ -787,6 +789,9 @@ img {
   .nav {
     display: flex;
     align-items: center;
+  }
+  .text-exempel-first {
+    width: calc((100% - 48px) / 4);
   }
   .footer-second {
     display: flex;
