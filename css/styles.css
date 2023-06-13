@@ -771,7 +771,7 @@ img {
     display: none;
   }
   .exempel {
-    display: none;
+    display: flex;
   }
   .fon {
     display: none;
@@ -994,12 +994,13 @@ img {
   }
 
   .footer-subscribe-input {
-    margin-right: 24px;
+    
     width: 264px;
   }
   .footer-subscribe-form {
     display: flex;
     margin-bottom: 16px;
+    margin-right: 24px;
   }
 }
 /* Subscribe */
