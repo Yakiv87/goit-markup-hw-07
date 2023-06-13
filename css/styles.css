@@ -922,11 +922,21 @@ img {
   .address-item:focus {
     color: var(--portfolio-btn-color);
   }
+  .hero-text {
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
+    max-width: 496px;
+    }
   .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/people-office\ 1@1x.webp');
   }
-  @media screen and (min-device-pixel-ratio: 2) and (min-width1440px),
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
     screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     .hero {
@@ -934,6 +944,7 @@ img {
         url('../images/people-office\ 1@2x.webp');
     }
   }
+  
   .company-list-link {
     width: 168px;
     height: 88px;
@@ -1158,7 +1169,7 @@ img {
 }
 
 /* Portfolio */
-/*  
+ 
 .portfolio {
   padding: 96px 0 120px;
 }
@@ -1265,6 +1276,6 @@ img {
 .portfolio-item-link:hover .overlay,
 .portfolio-item-link:focus .overlay {
   transform: translateY(0%);
-}*/
+}
 
 /* Modal */
