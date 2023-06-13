@@ -645,8 +645,10 @@ img {
     display: flex;
     gap: 56px;
     margin-top: 48px;
+    margin-bottom: 40px;
     align-items: center;
     flex-wrap: wrap;
+
   }
   .mobile-social-link {
     display: flex;
