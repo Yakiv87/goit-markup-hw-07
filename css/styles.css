@@ -969,8 +969,18 @@ img {
     width: 168px;
     height: 88px;
   }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .footer-second {
     display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+    gap: inherit;
+    flex-wrap: nowrap;
+
   }
   .footer-email {
     width: auto;
