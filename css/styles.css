@@ -459,8 +459,7 @@ img {
 .icon {
   width: 64px;
   height: 64px;
-  margin: auto;
-}
+ }
 
 /*what are we doing*/
 
@@ -898,6 +897,8 @@ img {
   }
   .exempel {
     display: block;
+    padding-bottom: 120px;
+    padding-top: 120px;
   }
   .fon {
     display: flex;
@@ -953,6 +954,10 @@ img {
   }
   .feature-description {
     font-weight: 400;
+  }
+  .team-list {
+    padding-bottom: 120px;
+    padding-top: 120px;
   }
   .company-list-link {
     width: 168px;
