@@ -544,10 +544,7 @@ img {
   .promo {
     display: none;
   }
-  /* .exempel {
-    display: flex;
-  } */
-  .fon {
+    .fon {
     display: none;
   }
   .mobile-menu-open-btn {
