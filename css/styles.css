@@ -486,7 +486,6 @@ img {
   text-transform: capitalize;
 }
 .email-subscribe {
-  height: 40px;
   display: flex;
   width: 264px;
   gap: 24px;
@@ -545,9 +544,9 @@ img {
   .promo {
     display: none;
   }
-  .exempel {
+  /* .exempel {
     display: flex;
-  }
+  } */
   .fon {
     display: none;
   }
@@ -571,6 +570,8 @@ img {
   .text-exempel {
     margin-bottom: 72px;
   }
+  /* .text-exempel-first:nth-last-child(1) { margin-bottom: 0;
+  } */
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
@@ -675,6 +676,7 @@ img {
   }
   .list-promo-img-second {
     flex-direction: column;
+    gap: 72px;
   }
   .list-promo-img {
     display: block;
@@ -687,10 +689,7 @@ img {
     width: calc((100% - 16px) / 2);
     height: 88px;
   }
-  .exempel {
-    padding-bottom: 0;
-  }
-  .footer {
+   .footer {
     padding-top: 96px;
     background: #2e2f42;
     padding-bottom: 92px;
@@ -779,10 +778,7 @@ img {
   .promo {
     display: none;
   }
-  .exempel {
-    display: flex;
-  }
-  .fon {
+    .fon {
     display: none;
   }
   .list-contact {
@@ -902,7 +898,6 @@ img {
     display: block;
   }
   .exempel {
-    display: block;
     padding-bottom: 120px;
     padding-top: 120px;
   }
@@ -989,7 +984,7 @@ img {
     flex-wrap: nowrap;
   }
   .footer-email {
-    width: auto;
+    width: 453px;
   }
   .footer-subs {
     text-align: left;
