@@ -1143,8 +1143,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--link-icon-color);
-  padding-top: 16px;
-}
+  }
 
 .contact-form-checkbox-icon {
   display: inline-flex;
@@ -1167,8 +1166,7 @@ img {
 .privacy-policy {
   text-decoration-line: underline;
   color: var(--second-color-btn);
-  padding-left: 4px;
-}
+ }
 .contact-form-btn {
   display: block;
   padding: 16px 32px;
