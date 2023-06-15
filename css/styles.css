@@ -641,6 +641,9 @@ img {
     color: #434455;
     padding-top: 40px;
   }
+  /* .mobile-email-link {
+    color: #434455;
+  } */
   .mobile-social-list {
     display: flex;
     gap: 56px;
