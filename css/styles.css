@@ -654,8 +654,7 @@ img {
     .mobile-social-list {
       gap: 25px;
     }
-  }
-
+      }
   .mobile-social-link {
     display: flex;
     justify-content: center;
@@ -729,9 +728,11 @@ img {
     display: block;
     width: 100%;
   }
-  .modal {
-    width: 392px;
+  @media screen and (max-width: 320px) {
+      .modal {
+        width: 90%;
   }
+      }
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/Dark-bg@1x.jpg');
