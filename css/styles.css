@@ -880,7 +880,7 @@ img {
     gap: 72px 24px;
   }
   .company-logo {
-    width: calc((100% - 16px) / 4);
+    width: 168px;
     height: 88px;
   }
 
